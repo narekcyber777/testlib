@@ -17,7 +17,7 @@ public class MyMath {
         return sub;
     }
 
-    public  int percent(int x,int percent){
+     int percent(int x,int percent){
         return  (x*percent)/100;
     }
 
