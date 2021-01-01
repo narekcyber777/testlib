@@ -21,6 +21,10 @@ public class MyMath {
         return (x * percent) / 100;
     }
 
+    public static boolean isNumber(Object object) {
+        return object instanceof Number;
+    }
+
     public static int lacoste() {
         return 1;
     }
