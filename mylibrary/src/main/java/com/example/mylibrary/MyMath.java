@@ -21,6 +21,10 @@ public class MyMath {
         return (x * percent) / 100;
     }
 
+    public static int lacoste() {
+        return 1;
+    }
+
     public static void perl() {
         System.out.println("fuller");
     }
