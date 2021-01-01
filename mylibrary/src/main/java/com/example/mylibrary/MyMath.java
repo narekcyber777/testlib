@@ -24,6 +24,9 @@ public class MyMath {
     public static boolean isNumber(Object object) {
         return object instanceof Number;
     }
+    public  static Exception  throwError(){
+        throw  new NumberFormatException("some mistakes occured");
+    }
 
     public static int lacoste() {
         return 1;
